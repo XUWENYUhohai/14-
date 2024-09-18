@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -O3 -O3 -DNDEBUG  -rdynamic CMakeFiles/loop_closure_verify.dir/loop_closure_verify.cpp.o  -o loop_closure_verify 
