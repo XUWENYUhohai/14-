@@ -1,0 +1,5 @@
+/home/xuwenyu/learn_slam/ch6/build/CMakeFiles/rebuild_cache.dir
+/home/xuwenyu/learn_slam/ch6/build/CMakeFiles/edit_cache.dir
+/home/xuwenyu/learn_slam/ch6/build/CMakeFiles/g2oCurveFitting.dir
+/home/xuwenyu/learn_slam/ch6/build/CMakeFiles/gaussNewton.dir
+/home/xuwenyu/learn_slam/ch6/build/CMakeFiles/ceresCurveFitting.dir
