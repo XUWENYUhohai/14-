@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "make build",//编译的项目名，build 宇launch.json的preLaunchTask对应
+            "type": "shell",
+            "command": "cd /home/xuwenyu/learn_slam/ch13/build ;cmake .. ;make",//编译命令 进入当前文件夹的build，然后cmake，接下来make
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
+

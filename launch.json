@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ch13/bin/run_kitti_stereo",//这里是cmake最终生成工程的名字，如果不同可以更改
+            //"args": ["${workspaceFolder}/ch12/test_data"],//这里添加了参数argv[1]
+            // "args": ["${workspaceFolder}/ch7/1.png","${workspaceFolder}/ch7/2.png","${workspaceFolder}/ch7/1_depth.png","${workspaceFolder}/ch7/2_depth.png"],//这里添加了参数argv[1]
+              "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+            ],
+            "preLaunchTask": "make build",//选择任务的名称
+            "miDebuggerPath": "/usr/bin/gdb",//gdb的路径
+            "sourceFileMap": {
+                "/build/glibc-CVJwZb": "/usr/src/glibc"
+          }
+        }
+    ]
+}
